@@ -5,4 +5,6 @@ using Test
 
     @info "Running tests for SnellEnvelope.jl"
 
+    include("implied_volatility.jl")
+
 end
