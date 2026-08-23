@@ -1,0 +1,13 @@
+name = "SnellEnvelope"
+uuid = "7bf50fb2-b692-42fe-8562-4dfab77477fd"
+authors = ["Sebastian Schlenkrich"]
+version = "0.0.1"
+
+[compat]
+julia = "1.10.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
