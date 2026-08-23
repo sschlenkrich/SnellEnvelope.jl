@@ -1,3 +1,6 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 SnellEnvelope = "7bf50fb2-b692-42fe-8562-4dfab77477fd"
+
+[compat]
+Documenter = "1.17.0"
