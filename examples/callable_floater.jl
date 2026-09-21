@@ -218,7 +218,7 @@ function plot_relative_switch(result_table::DataFrame)
     traces = PlotlyBase.AbstractTrace[]
     #
     trace = scatter(
-        name = "AMC",
+        name = "AMC Switch Value",
         x = result_table.strike_rate * 100,
         y = result_table.rel_switch * 100,
         mode = "markers",
