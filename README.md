@@ -9,17 +9,21 @@
 This repository provides the implementation and case study results for the paper *Bermudan Switch Value Approximation for Non-Standard Swaptions*.
 
 We calculate the Snell envelope $\left(H_k\right)_k$ via terminal condition $H_n=0$ and backward induction
+
 $$
   H_k = \mathbb{E_k}\left[ \max\left( H_{k+1}, U_{k+1} \right) \right].
 $$
 
 Underlying payoffs $U_k$ are of the form
+
 $$
   U_k = A_k \cdot \left[ \left(S_k + x_k\right) - K \right]
   \qquad
   \text{(normal model variant)}
 $$
+
 or
+
 $$
   U_k = A_k \cdot \left[ S_k \exp\left(x_k\right) - K \right].
   \qquad
