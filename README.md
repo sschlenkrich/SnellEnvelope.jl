@@ -6,7 +6,7 @@
 [![Coverage](https://codecov.io/gh/sschlenkrich/SnellEnvelope.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/sschlenkrich/SnellEnvelope.jl)
 
 
-This repository provides the implementation and case study results for the paper *Bermudan Switch Value Approximation for Non-Standard Swaptions*.
+This repository provides the implementation and case study results for the paper [*Bermudan Switch Value Approximation for Non-Standard Swaptions*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7682410).
 
 We calculate the Snell envelope $\left(H_k\right)_k$ via terminal condition $H_n=0$ and backward induction
 
